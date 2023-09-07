@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/srivatsan-portfolio/static/css/main.0da71091.css",
+    "main.js": "/srivatsan-portfolio/static/js/main.9e7b6dc7.js",
+    "static/media/quotegen.png": "/srivatsan-portfolio/static/media/quotegen.686d2cf82e11d54be523.png",
+    "static/media/weatherapp.png": "/srivatsan-portfolio/static/media/weatherapp.aa35c0c6a1b4fc37fd9d.png",
+    "static/media/todolist.png": "/srivatsan-portfolio/static/media/todolist.38383e5df27771df59e7.png",
+    "static/media/pagination.png": "/srivatsan-portfolio/static/media/pagination.4c7556a4ce9c2a695d38.png",
+    "static/media/robofriends.png": "/srivatsan-portfolio/static/media/robofriends.95301fdce387aa2e3484.png",
+    "static/media/loginform.png": "/srivatsan-portfolio/static/media/loginform.cdf3f7eb21ed821d5b7b.png",
+    "static/media/web-removebg-preview.png": "/srivatsan-portfolio/static/media/web-removebg-preview.9fed7f1d0b7ca01038fd.png",
+    "static/media/Web-designer-1024x821.webp": "/srivatsan-portfolio/static/media/Web-designer-1024x821.6e57f7f5669037a83b03.webp",
+    "static/media/bars.svg": "/srivatsan-portfolio/static/media/bars.b264a25d796c08e0e322.svg",
+    "index.html": "/srivatsan-portfolio/index.html",
+    "main.0da71091.css.map": "/srivatsan-portfolio/static/css/main.0da71091.css.map",
+    "main.9e7b6dc7.js.map": "/srivatsan-portfolio/static/js/main.9e7b6dc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0da71091.css",
+    "static/js/main.9e7b6dc7.js"
+  ]
+}
