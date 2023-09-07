@@ -2,11 +2,11 @@ import React from 'react'
 import '../../pages/style.css';
 import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from 'react-bootstrap'
-import useradminpanel from '../../Assets/Admin-Panel-Dashboard.png'
-import olximage from '../../Assets/olx-clone image.png'
-import netfliximage from '../../Assets/React-App-netflix-clone.png'
-import gridlinesbuilders from '../../Assets/Gridlinesbuilders.png'
-import charlespizza from '../../Assets/Charlestown-Pizza.png'
+import robofriends from '../../Assets/robofriends.png'
+import pagination from '../../Assets/pagination.png'
+import loginform from '../../Assets/loginform.png'
+import quotegen from '../../Assets/quotegen.png'
+import weatherapp from '../../Assets/weatherapp.png'
 import todolist from '../../Assets/todolist.png'
 
 function Projectlist() {
@@ -17,51 +17,51 @@ function Projectlist() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={useradminpanel}
+                imgPath={robofriends}
                 isBlog={false}
-                title="Dashboard Panel"
-                description="User Admin Dashboard created with React js, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to build this entire application. This application consists of Light and Dark Mode, four different Charts, three different Data Table Pages, FAQ Page, Form Page, and Calendar Integration."
-                ghLink="https://rahul-dashboard-pannel.netlify.app"
+                title="Robo Friends"
+                description="An app that lets you search for your robot friends by their names. It uses the jsonplaceholder api to fetch names and emails that is used for the robots."
+                ghLink="https://developer24sri.github.io/robofriends/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={olximage}
+                imgPath={pagination}
                 isBlog={false}
-                title="Olx-Clone"
-                description="Olx-clone builds with react js. using firebase as a backend and deploying in firebase. Olx-Clone is a potential classified advertisement website that categorizes objects in a user-friendly manner & displays them as advertisements.. Classifieds can be posted that involve selling, and buying using React-router, context, react hooks."
-                ghLink="https://olx-clone-rahul.netlify.app/"
+                title="Pagination"
+                description="Pagination in React Js is the concept by which, we divide these records into multiple sets with the same number of records which are then displayed on separate pages in the React Js application."
+                ghLink="https://developer24sri.github.io/pagination/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={netfliximage}
+                imgPath={loginform}
                 isBlog={false}
-                title="Netflix-Clone"
-                description="This project is a simplified front-end clone of Netflix. It was created with React js. It uses TMDB (The Movie Data Base ) API and uses the Axios tool. Users can click movie images with embedded YouTube trailers or related videos about the movie."
-                ghLink="https://react-netflixweb-clone.netlify.app/"
+                title="Login-Form"
+                description="This project is a simplified Which been created using ReactJS."
+                ghLink="https://developer24sri.github.io/loginform/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={gridlinesbuilders}
+                imgPath={quotegen}
                 isBlog={false}
-                title="Grid Line Builders"
-                description="Grid line builders is a static webpage built with HTML, CSS, and JavaScript. Users can see images of their work and contact information that helps to connect the home builders through a webpage. webpage builds responsive to multiple sizes of devices."
-                ghLink="https://gridlinesbuilders.in/"
+                title="Quote-Generator"
+                description="A simple Quote generator react app which uses API to fetch the quotes"
+                ghLink="https://developer24sri.github.io/quotegeneratorreact/"
               />
             </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={charlespizza}
+                imgPath={weatherapp}
                 isBlog={false}
-                title="Charlestown Pizza"
-                description="Charlestown pizza is a static website completely build with bootstrap with fully responsive."
-                ghLink="https://rahulvijay81.github.io/Pizzastore-bootstrap/"
+                title="Weather application"
+                description="A simple weather application to find the weather of the city"
+                ghLink="https://developer24sri.github.io/weatherapp/"
               />
             </Col>
 
